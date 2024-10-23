@@ -34,16 +34,6 @@ public class Init : MonoBehaviour
 
         GContext.RegisterSingleton<StageDataProvider>();
 
-//        var clientV4 = new ClientV4(tableManager.GlobalConfig.GLMApiKey);
-//        var response = clientV4.chat.Completion(
-//            new TextRequestBase()
-//                .SetModel("glm-4")
-//                .SetMessages(new[] { new MessageItem("user", "ÄãºÃ£¬ÄãÊÇË­£¿") })
-//                .SetTemperature(0.7)
-//                .SetTopP(0.7)
-//        );
-//
-//        Console.WriteLine(JsonConvert.SerializeObject("¹þ¹þ¹þ¹þ¹þ¹þ   "+response));
 
         #endregion
     }
