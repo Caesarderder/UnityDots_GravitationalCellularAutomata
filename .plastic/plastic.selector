@@ -1,0 +1,4 @@
+repository "GravitationalCellularAutomata@tj_2023gamejam_dico@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

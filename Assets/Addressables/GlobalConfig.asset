@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887e687b59bbd2e4ea644ffdcd113b41, type: 3}
+  m_Name: GlobalConfig
+  m_EditorClassIdentifier: 
+  LLM: 1
+  ApiKey: 
+  lan: "\u4E2D\u6587"
+  GLMUrl: https://open.bigmodel.cn/api/paas/v4/chat/completions
+  GLMModleSelectIndex: 8
+  GLMModleTypes:
+  - glm-4-plus
+  - glm-4-0520
+  - glm-4
+  - glm-4-air
+  - glm-4-airx
+  - glm-4-long
+  - glm-4-flashx
+  - glm-4-flash
+  - charglm-3
+  - charglm-4
+  GLMApiKey: b3ee24aa295b490dfeee23e03783da9b.J0mCcjinA4jg7T7c
+  MaxStageSteps: 3
+  StageMapSlelectCount: 3
